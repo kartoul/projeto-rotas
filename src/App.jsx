@@ -9,9 +9,9 @@ import Sobre from './pages/Sobre'
 const App = () => {
   return (
     <Router>
-      <div className='min-h-screen bg-gray-100 text-gray-900'>
+      <div className='min-h-screen bg-yellow-50 text-mauve-900 p-2'>
         <Navbar/>
-        <main>
+        <main className='p-2'>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/sobre' element={<Sobre/>}/>
